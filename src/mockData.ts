@@ -1,0 +1,98 @@
+import { CampusEvent } from './types';
+
+export const fallbackEvents: CampusEvent[] = [
+  {
+    id: 1,
+    title: 'Technology Innovation Day 2026',
+    description: 'Explore emerging technologies, quantum computing foundations, and innovative student capstone projects across engineering departments.',
+    location: 'Main Campus Hall & Innovation Atrium',
+    date: '2026-12-10',
+    organizer: 'Computer Science Department',
+    sessions: [
+      {
+        id: 1,
+        title: 'Introduction to Artificial Intelligence & Multi-Agent Systems',
+        description: 'Understanding LLMs, agentic workflows, and ethical considerations.',
+        speaker: 'Dr. Abebe',
+        startTime: '09:00',
+        endTime: '10:00',
+      },
+      {
+        id: 2,
+        title: 'Building Modern Web Applications with React & NestJS',
+        description: 'Architecting high-performance reactive interfaces and real-time APIs.',
+        speaker: 'Mr. Dawit',
+        startTime: '10:30',
+        endTime: '12:00',
+      },
+      {
+        id: 3,
+        title: 'Student Innovation Demo Showcase',
+        description: 'Live interactive demonstrations by student engineering teams.',
+        speaker: 'Engineering Student Council',
+        startTime: '13:30',
+        endTime: '15:00',
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Annual Career Development & Tech Recruiting Expo',
+    description: 'Prepare students for high-impact professional internships and careers with leading tech companies and graduate research institutions.',
+    location: 'Conference Room A & Grand Ballroom',
+    date: '2026-12-15',
+    organizer: 'Student Affairs Office',
+    sessions: [
+      {
+        id: 1,
+        title: 'Writing a Standout Engineering CV & Portfolio',
+        description: 'Learn how to present real-world projects and technical accomplishments.',
+        speaker: 'Ms. Hana',
+        startTime: '09:00',
+        endTime: '10:00',
+      },
+      {
+        id: 2,
+        title: 'Technical Interview Mastery & Live Coding Tips',
+        description: 'Tips and mock walkthroughs for succeeding in competitive technical interviews.',
+        speaker: 'Mr. Samuel',
+        startTime: '10:30',
+        endTime: '11:30',
+      },
+      {
+        id: 3,
+        title: 'Networking & Direct Recruiter Meetups',
+        description: '1-on-1 networking tables with hiring managers.',
+        speaker: 'Recruiting Panel',
+        startTime: '13:00',
+        endTime: '16:00',
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Biomedical Informatics & AI in Healthcare Symposium',
+    description: 'A cross-disciplinary forum examining data-driven diagnosis, computational genomics, and wearable health monitor hardware.',
+    location: 'Health Sciences Amphitheater B',
+    date: '2026-12-18',
+    organizer: 'Biomedical Engineering & Health Informatics',
+    sessions: [
+      {
+        id: 1,
+        title: 'Machine Learning in Medical Imaging',
+        description: 'How computer vision is improving diagnostic accuracy in radiology.',
+        speaker: 'Dr. Selamawit',
+        startTime: '10:00',
+        endTime: '11:15',
+      },
+      {
+        id: 2,
+        title: 'IoT Telemetry for Remote Patient Care',
+        description: 'Low-latency sensor streams and edge inference algorithms.',
+        speaker: 'Prof. Yonas',
+        startTime: '11:30',
+        endTime: '12:45',
+      },
+    ],
+  },
+];
